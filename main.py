@@ -13,7 +13,7 @@ INTENTS.members = True
 INTENTS.message_content = False  # เราใช้ slash command + components
 
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN", "")
-SHEETS_ID = os.getenv("GOOGLE_SHEETS_ID", "")
+SHEETS_ID = os.getenv("15GgroJJD1yj2ipc33HJvvy7ajFzwXfOil6k96HtyLdc", "")
 
 SERVICE_ACCOUNT_JSON = os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON", "")
 CATALOG_SHEET_NAME = os.getenv("CATALOG_SHEET_NAME", "catalog")
