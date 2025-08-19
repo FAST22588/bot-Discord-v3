@@ -13,9 +13,7 @@ import gdown
 
 # -------------------- CONFIG --------------------
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN", "").strip()
-ADMIN_USER_IDS = {
-    # ใส่ Discord User ID ของแอดมิน เช่น
-    # 123456789012345678,
+ADMIN_USER_IDS = {1147798918973898762,
 }
 
 INTENTS = discord.Intents.default()
