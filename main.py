@@ -13,7 +13,8 @@ import gdown
 
 # -------------------- CONFIG --------------------
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN", "").strip()
-ADMIN_USER_IDS = {1147798918973898762,
+ADMIN_USER_IDS = {
+    1147798918973898762,
 }
 
 INTENTS = discord.Intents.default()
